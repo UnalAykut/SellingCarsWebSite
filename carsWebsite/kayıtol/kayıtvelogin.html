@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="tr" >
+<head>
+  <meta charset="UTF-8">
+  <title>ArsM | BİZE KATILIN </title>
+  <head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+</head><link rel="stylesheet" href="loginstyle.css">
+</head>
+<body>
+
+  <header class="header" style="background-color:#181818;">
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+    
+    <a href="../index.php" class="logo" > <span style="font-size: 30px;">ARS</span> | Motors </a>
+
+    
+
+    <div id="login-btn" >
+        
+        
+    </div>
+
+</header> 
+
+<section class="forms-section">
+  <br><br><br><br><br><br><br><br><br><br>
+  
+  <h1 class="section-title" style="color:rgb(220, 176, 0)">BİZE KATILIN</h1>
+  <div class="forms">
+    <div class="form-wrapper is-active">
+      <button type="button" class="switcher switcher-login">
+        Giriş
+        <span class="underline"></span>
+      </button>
+      <form class="form form-login" action="login.php" method="POST">
+        <fieldset>
+          <legend></legend>
+          <div class="input-block">
+            <label for="login-email" name="login-email"><span style="color: black">E-mail</span> </label>
+            <input id="login-email" name="login-email" type="email" required>
+          </div>
+          <div class="input-block">
+            <label for="login-password" name="login-password" ><span style="color: black">Şifre</span> </label>
+            <input id="login-password"  name="login-password" type="password" required>
+          </div>
+        </fieldset>
+        <button type="submit" class="btn-login" onclick="window.location.href='../giristensonra/index2.php';">Giriş</button>
+      </form>
+    </div>
+    <div class="form-wrapper">
+      <button type="button" class="switcher switcher-signup">
+        Kayıt Ol
+        <span class="underline"></span>
+      </button>
+      <form class="form form-signup" action="signup.php" method="POST">
+        <fieldset>
+          <legend></legend>
+          <div class="input-block">
+            <label for="signup-email"><span style="color: black">E-mail</span></label>
+            <input id="signup-email" type="email" required>
+          </div>
+          <div class="input-block">
+            <label for="signup-password" name="signup-password"><span style="color: black">Şifre</span></label>
+            <input id="signup-password" name="signup-password" type="password" required>
+          </div>
+          <div class="input-block">
+            <label for="signup-password-confirm" name="signup-password-confirm"><span style="color: black">Şifreyi Onayla</span></label>
+            <input id="signup-password-confirm" name="signup-password-confirm" type="password" required>
+          </div>
+        </fieldset>
+        <button type="submit" class="btn-signup" onclick="window.location.href='kayıtvelogin.html';">Devam Et</button>
+      </form>
+    </div>
+  </div>
+</section>
+<!-- partial -->
+  <script  src="loginscript.js"></script>
+
+</body>
+</html>
