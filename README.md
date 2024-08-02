@@ -19,9 +19,9 @@ Cars and bikes are representative :)
 + Yusuf Oruçtutan
 # ScreenShots
  <div>
-  <img src="ARS Motors/Preview/ss12.png"/>
-  <img src="ARS Motors/Preview/ss13.png"/>
-  <img src="ARS Motors/Preview/ss14.png"/>
+  <img src="carsWebsite/Preview/ss12.png"/>
+  <img src="carsWebsite/Preview/ss13.png"/>
+  <img src="carsWebsite/Preview/ss14.png"/>
   <img src="ARS Motors/Preview/ss15.png"/>
   <img src="ARS Motors/Preview/ss17.png"/>
   <img src="ARS Motors/Preview/ss8.png"/>
