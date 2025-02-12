@@ -9,7 +9,7 @@ Cars and bikes are representative :)
 + Users can contact the dealer of their choice and choose the payment option.
 + Dealers have an admin panel and have the right to update their stock status, vehicle additions and removals, price updates and comments.
 # Technologies Used
-+ Frontend: HTML, CSS, JavaScript, Bootstrap
++ Frontend: HTML, CSS, JavaScript, Bootstrap,
 + Backend: Php
 + Database: MySQL
 # Team
